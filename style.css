@@ -97,6 +97,7 @@ button:hover {
   width: 100%;
   display: grid;
   grid-template-rows: 1fr max-content;
+  gap: 30px;
 
   color: #fff;
 
