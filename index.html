@@ -3,29 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Decodificado de texto</title>
   </head>
   <body>
-    <main>
+    <main class="container">
       <header>
         <img src="./assets/logoAlura.svg" alt="Logo Alura" />
       </header>
-      <div>
-        <section>
-          <textarea placeholder="Digite seu texto"></textarea>
+      <div class="container_main">
+        <section class="container_message">
+          <textarea placeholder="Digite seu texto" id="texto"></textarea>
 
-          <span>
+          <span class="container_message_alert">
             <img src="./assets/exclamation.svg" alt="exclamation" />
             Apenas letras minúsculas e sem acento.
           </span>
 
-          <div>
-            <button>Encriptografar</button>
-            <button>Descriptografar</button>
+          <div class="container_message_buttons">
+            <button id="bt_criptografar" onclick="encriptografar()">Encriptografar</button>
+            <button id="bt_descriptografar" onclick="descriptografar()">Descriptografar</button>
           </div>
         </section>
-        <section>
-          <div>
+        <section class="container_result" id="container_resultado">
+          <div class="container_result_text" id="resultado">
             <img src="./assets/Spy.png" alt="">
             <h1>Nenhuma mensagem encontrada</h1>
             <p>
@@ -33,7 +34,7 @@
             </p>
           </div>
           <div></div>
-          <button>Copiar!</button>
+          <button id="bt_copiar">Copiar!</button>
         </section>
       </div>
     </main>
