@@ -71,7 +71,7 @@ function descriptografar() {
 }
 
 function printarTextoManipulado(texto) {
-  if (window.innerWidth > 400) {
+  if (window.innerWidth > 720) {
     resultado.innerHTML = texto;
     resultado.style.transform = "translate(-50%, 0%)";
     resultado.style.top = "1%";
