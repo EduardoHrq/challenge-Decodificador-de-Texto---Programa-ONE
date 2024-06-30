@@ -4,7 +4,7 @@
 
 <div align="justify">
 
-  Projeto feito com o objetivo educacional e para conclusão de formação e/ou curso do programa ONE da oracle em colaboração com a Alura. Educacionalmente ensina sobre logica, raciocinio, resolução de problemas e aplicação dos estudos relacionados ao JavaScript, HTML5 e CSS. <br>
+  Projeto feito com o objetivo educacional e para conclusão de formação e/ou curso do programa ONE da oracle em colaboração com a Alura. De modo educacional ensina sobre logica, raciocinio, resolução de problemas e aplicação dos estudos relacionados ao JavaScript, HTML5 e CSS. <br>
   Este projeto consiste em um decodificador de texto, criptografando-o e descriptografando-o, tendo a manipulação de texto para esconder uma mensagem. No caso apresentado ter uma linguaguem oculta propria para compartilhar com os amigos e somente quem tem este decodificador entenderá a mensagem passada.
 
 </div>
