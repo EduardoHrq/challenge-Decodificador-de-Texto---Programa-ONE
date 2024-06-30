@@ -2,8 +2,23 @@ const textoTextArea = document.getElementById("texto");
 const resultado = document.getElementById("resultado");
 const btCopiar = document.getElementById("bt_copiar");
 
+textoTextArea.addEventListener("input", (element) => {
+
+  if(String(element.target.value).length > 0) {
+    document.getElementById("bt_criptografar").removeAttribute("disabled")
+    document.getElementById("bt_descriptografar").removeAttribute("disabled")
+  }else {
+    document.getElementById("bt_criptografar").setAttribute("disabled", "true")
+    document.getElementById("bt_descriptografar").setAttribute("disabled", "true")
+  }
+
+})
+
 function encriptografar() {
-  console.log(textoTextArea.value);
+
+  if(String(textoTextArea.value).length == 0) {
+    return
+  }
 
   var textoParaEncriptar = String(textoTextArea.value).toLowerCase();
 
@@ -28,7 +43,10 @@ function encriptografar() {
 }
 
 function descriptografar() {
-  console.log(textoTextArea.value);
+
+   if (String(textoTextArea.value).length == 0) {
+     return;
+   }
 
   var textoParaDecifar = String(textoTextArea.value).toLowerCase();
 
