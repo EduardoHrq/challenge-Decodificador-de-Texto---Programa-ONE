@@ -9,6 +9,17 @@
 
 </div>
 
+## Como é feito
+
+Por substituição, cada vogal é substituida por uma palavra especifica. Assim dificultando a leitura, bem como escondendo a mensagem original.
+
+As "chaves" de criptografia que foram utilizadas:
+- A letra "e" é convertida para "enter"
+- A letra "i" é convertida para "imes"
+- A letra "a" é convertida para "ai"
+- A letra "o" é convertida para "ober"
+- A letra "u" é convertida para "ufat"
+
 ## Disponivel / Deploy
 
 <a href="https://eduardohrq.github.io/challenge-Decodificador-de-Texto---Programa-ONE/" target="_blank">
