@@ -71,7 +71,7 @@ function descriptografar() {
 }
 
 function printarTextoManipulado(texto) {
-  if (window.innerWidth > 720) {
+  if (window.innerWidth > 730) {
     resultado.innerHTML = texto;
     resultado.style.transform = "translate(-50%, 0%)";
     resultado.style.top = "1%";
@@ -100,7 +100,6 @@ function mostrarBotaoDeCopiar() {
 }
 
 btCopiar.addEventListener("click", () => {
-  console.log("oi");
   navigator.clipboard.writeText(resultado.innerHTML);
 
   btCopiar.innerHTML = "Copiado!!";

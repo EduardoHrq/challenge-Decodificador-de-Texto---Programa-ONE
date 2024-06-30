@@ -107,7 +107,7 @@ button:not(:disabled):hover{
   color: #fff;
 
   box-shadow: 0 0 0 4px var(--cor-destaque);
-  transition: all .3s;
+  transition: box-shadow .3s;
 }
 
 .container_result button {
@@ -140,7 +140,7 @@ footer {
   text-align: center;
 }
 
-@media screen and (min-width: 720px) {
+@media (min-width: 720px) {
   body {
     height: 100svh;
   }
