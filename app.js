@@ -75,3 +75,20 @@ function mostrarBotaoDeCopiar() {
     }, 300);
   }
 }
+
+btCopiar.addEventListener("click", () => {
+  console.log("oi");
+  navigator.clipboard.writeText(resultado.innerHTML)
+
+  btCopiar.innerHTML = "Copiado!!"
+  btCopiar.style.backgroundColor = "var(--bg-secondary)"
+  btCopiar.style.color = "#000"
+
+  setTimeout(() => {
+    btCopiar.innerHTML = "Copiar!"
+    btCopiar.style.backgroundColor = "var(--cor-destaque)"
+    btCopiar.style.color = "#FFF"
+  }, 1000)
+
+})
+

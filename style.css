@@ -109,6 +109,7 @@ button:hover {
   display: none;
   scale: .5;
   opacity: 0;
+  transition: all .3s;
 }
 
 .container_result_text {
